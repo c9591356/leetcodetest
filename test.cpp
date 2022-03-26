@@ -3,13 +3,17 @@
 #include <sstream> 
 #include <typeinfo>
 #include <string> 
+#include <set>
 using namespace std;
 
-
+void test(int &y){
+	y=5;
+}
 
 int main() {
-	vector<vector<int> x;
-
+	int y=3;
+	test(y);
+	cout<<y;
 
 
        
