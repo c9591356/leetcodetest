@@ -4,19 +4,15 @@
 #include <typeinfo>
 #include <string> 
 #include <set>
+#include <unordered_map>
+#include <math.h> 
 using namespace std;
 
-void test(int &y){
-	y=5;
-}
+
 
 int main() {
-	int y=3;
-	test(y);
-	cout<<y;
-
-
-       
-  
-    return 0;
+  	int a=100;
+  	string m=std::to_string(a)+"-->";
+  	cout<<m;
+   
 }
